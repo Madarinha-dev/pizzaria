@@ -15,7 +15,7 @@ body{
 header {
     background-color: #006491;
     height: 52px;
-    width: 91vw;
+    width: 95.6vw;
 
 }
 
@@ -95,8 +95,8 @@ div#recadin {
     background-color: white; 
     margin:auto;
     height: 42px;
-    width: 91vw;
-    /* background-color: aqua; */
+    width: 96.2vw;
+    background-color: aqua;
 }
 
 div#recadin > div#acompanhe {
