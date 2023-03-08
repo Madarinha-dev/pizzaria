@@ -235,7 +235,7 @@ div#azul > div > div#filho1 {
     display: inline-block;
    position: absolute;
    left: 100%;
-   margin-left: -85%;
+   margin-left: -89%;
    background-color: #e3193b;
    width: 130px;
    height: 30px;
@@ -253,9 +253,9 @@ div#azul > div > div#filho2 {
     display: inline-block;
    position: absolute;
    right: 100%;
-   margin-right: -88%;
-   background-color: #e3193b;
-   width: 150px;
+   margin-right: -95%;
+   background-color: #e3193b; 
+   width: 160px;
    height: 30px;
    border-radius: 5px;
    padding-top: 10px;
