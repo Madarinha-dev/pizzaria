@@ -8,6 +8,7 @@
 
 body{
     background-color: whitesmoke;
+
 }
 
 
@@ -95,7 +96,7 @@ div#recadin {
     margin:auto;
     height: 42px;
     width: 96.2vw;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 div#recadin > div#acompanhe {
