@@ -15,7 +15,8 @@ body{
 header {
     background-color: #006491;
     height: 52px;
-    width: 95.6vw;
+    /* width: 95.6vw; */
+    width: 720px;
 
 }
 
