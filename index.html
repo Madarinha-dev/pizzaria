@@ -1,29 +1,24 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domino's Pizza- A maior Pizzaria Do Mundo</title>
     <link rel="shortcut icon" href="imagens/pequena-com-fundo.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilo-paisagem.css" media="screen and (orientation: landscape)">
 </head>
 <body>
     <header>
         <div id="pai">
             <div id="bloco01">
-                <a href="#" id="imagem01"><img src="imagens/menu.jpeg" alt="cardapio" id="um"></a>
+                <a href="#" id="imagem01"><img src="imagens/menu.jpeg" alt="cardapio" id="um" onclick="menu()"></a>
             </div>
 
             <div id="bloco02">
-                <a href="#" id="imagem02"><img src="imagens/carrinho.jpeg" alt="carrinho" id="dois"></a>
+                <a href="#" id="imagem02"><img src="imagens/carrinho.jpeg" alt="carrinho" id="dois" onclick="compra()"></a>
             </div>
 
             <div id="bloco03">
                 <a href="index.html" id="imagem3"><img src="imagens/domino.jpeg" alt="Logo" id="tres"></a>
             </div>
-        </div>
         </div>
     </header>
     
@@ -87,7 +82,7 @@
         </div>
     </div>
 
-    <div id="botoes" >
+    <div id="botoes">
         <div>
             <a href="#">ACOMPANHE O SEU PEDIDO</a>
         </div>
@@ -96,18 +91,23 @@
     <div id="azul">
         <div>
             <p>COMEÇAR O PEDIDO</p>
+            
             <div id="filho1">
                 <a href="#">ENTREGA</a>
             </div>
+            
             <p id="unico">ou</p>
+            
             <div id="filho2"> 
                 <a href="#">RETIRAR NA LOJA</a>
             </div>
             
         </div>
     </div>
+    
     <footer>
         <p>Usando para aprendizagem...</p>
     </footer>
+    <script src="interação.js">interação.js</script>
 </body>
 </html>
