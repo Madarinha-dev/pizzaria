@@ -1,12 +1,8 @@
-@charset "UTF-8";
+@charset "UTF-8";   
 * {  
     font-style: initial;
     margin: 0px;
     padding: 0px;
-}
-
-html {
-  background-color:green;
 }
 
 body{
@@ -309,5 +305,16 @@ footer {
     height:100px;
     padding-top:10px; 
     padding-left: 10px;
-    
 }
+
+/* Daqui pra frente vai er configuração pra dispositivos maiores 
+@media screen and (min-width: 700px) {
+    body {
+        background-color: red;
+    }
+
+    header {
+        background-color:green;
+    }
+}
+*/
