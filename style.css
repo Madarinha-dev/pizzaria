@@ -23,7 +23,7 @@ header {
 }
 
 div#menu {
-    width:45vw;
+    width:47vw;
     height: 100vh;
     background-color:#0081bd;
     position: fixed;
@@ -53,7 +53,7 @@ div#menu > div {
 
 div#menu > div > div#imagem {
     padding-top:15px; 
-    padding-left:175px;
+    padding-left:160px;
     
 }
 
@@ -73,8 +73,8 @@ div#menu > div > div#texto {
 div#menu > div > div#texto > img {
     left: 100%;
     top:100%;
-    margin-left: -90%;
-    margin-top: -29%;
+    margin-left: -93%;
+    margin-top: -30%;
     position: absolute;
     width: 60px;
     height: 60px;
@@ -82,7 +82,7 @@ div#menu > div > div#texto > img {
 
 div#menu > div > div#texto > p {
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
