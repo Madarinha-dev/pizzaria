@@ -9,3 +9,7 @@ function fechar() {
     var menu = document.querySelector('div#menu');
     menu.style.display = 'none'
 }
+
+function carrinho() {
+    alert('oi')
+}
