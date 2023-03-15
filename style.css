@@ -34,7 +34,7 @@ div#menu > ul > li {
     color: white;
     padding-top: 10px;
     padding-left: 18px;
-    width: 43vw; /* tenção*/
+    width: 42vw; /* tenção*/
     padding-bottom: 10px;
     font-size: 16px ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -125,8 +125,12 @@ div#carrinho > div#botao0 {
     border-radius: 5px;;
     padding-top:10px;
     padding-bottom:10px;
-    background-color: red;
+    background-color: #e3193b;
     width: 150px;
+}
+
+div#carrinho > div#botao0:hover {
+    background-color: #b8132e;
 }
 
 div#carrinho > div#botao0 > a {
