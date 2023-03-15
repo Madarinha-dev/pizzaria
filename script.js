@@ -11,5 +11,11 @@ function fechar() {
 }
 
 function carrinho() {
-    alert('oi')
+    var carrinho = document.querySelector('div#carrinho');
+    carrinho.style.display = 'block'
+}
+
+function fcarrinho() {
+    var carrinho = document.querySelector('div#carrinho');
+    carrinho.style.display = 'none'
 }
