@@ -41,7 +41,6 @@ div#menu > ul > li {
 }
 
 div#menu > ul > li:hover {
-    /* background-color: #004b6d; */
     background-color: red;
     transition:0.3s;
 }
@@ -134,7 +133,6 @@ div#carrinho > div#botao0:hover {
 }
 
 div#carrinho > div#botao0 > a {
-    /* background-color: red; */
     text-decoration: none;
     color:white;
     font-size:13px;
