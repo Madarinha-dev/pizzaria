@@ -88,7 +88,7 @@ div#menu > div > div#texto > p {
 
 div#carrinho {
     display:none;
-    position: relative;
+    position: fixed;
     width: 100vw;
     height:100vh;
     background-color: white;
