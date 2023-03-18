@@ -6,7 +6,6 @@ function menu() {
 }
 
 function fechar() {
-    var body = document.querySelector('body');
     var menu = document.querySelector('div#menu');
     var fundo = document.querySelector('div#azul');
     fundo.style.display = 'block'
@@ -14,7 +13,6 @@ function fechar() {
 }
 
 function carrinho() {
-    var menu = document.querySelector('div#menu');
     var carrinho = document.querySelector('div#carrinho');
     var fundo = document.querySelector('div#azul');
     fundo.style.display = 'none'
@@ -22,7 +20,7 @@ function carrinho() {
     
 }
 
-function fcarrinho() {
+function fc() {
     var carrinho = document.querySelector('div#carrinho');
     var fundo = document.querySelector('div#azul');
     fundo.style.display = 'block'

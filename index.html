@@ -12,8 +12,8 @@
                 <a href="#" id="imagem01"><img src="imagens/menu.jpeg" alt="cardapio" id="um" onclick="menu()"></a>
             </div>
 
-            <div id="bloco02">
-                <a href="#" id="imagem02"><img src="imagens/carrinho.jpeg" alt="carrinho" id="dois" onclick="carrinho()"></a>
+            <div id="bloco02" onclick='carrinho()'>
+                <a href="#" id="imagem02"><img src="imagens/carrinho.jpeg" alt="carrinho" id="dois"></a>
             </div>
 
             <div id="bloco03">
@@ -53,17 +53,22 @@
         </div>
 
         <div id="carrinho">
-            <div>
-                <!-- p = Carrinho / img = 'X' -->
-                <p>CARRINHO</p>
-            </div>
-            <hr>
-            <!-- p = Um texto -->
-            <p>Seu carrinho está vazio, mas a sua barriga não precisa estar. Adicione seus itens de preferência e volte aqui para finalizar o seu pedido.</p>
-            <div id="botao0">
-                <!-- botão vermelho  -->
-                <a href="#" onclick="fcarrinho()">COMEÇAR O PEDIDO</a>
-            </div>
+           <div id="menssagem">
+                CARRINHO
+           </div>
+
+           <div id="x" onclick="fc()">
+                <a href="#"><img src="imagens/icons8-x-67.png" alt=""></a>
+                
+           </div>
+           <div>
+                <p>
+                    Seu carrinho está vazio, mas a sua barriga não precisa estar. Adicione seus itens de preferência e volte aqui para finalizar o seu pedido.
+                </p>
+           </div>
+           <div id="botao01">
+                <a href="#">COMEÇAR O PEDIDO</a>
+           </div>
         </div>
 
     </article>
