@@ -15,6 +15,9 @@ function fechar() {
 function carrinho() {
     var carrinho = document.querySelector('div#carrinho');
     var fundo = document.querySelector('div#azul');
+    var menu = document.querySelector('div#menu');
+
+    menu.style.display = 'none'
     fundo.style.display = 'none'
     carrinho.style.display = 'block'
     
