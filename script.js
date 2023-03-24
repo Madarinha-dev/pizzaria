@@ -1,5 +1,8 @@
 
 function abrir() {
+    var icone = document.querySelector('div.bloco-3');
+    icone.style.display = 'none';
+
     var menu = document.querySelector('div#menu');
     menu.style.display = 'block';
 
@@ -9,6 +12,9 @@ function abrir() {
 
 
 function fechar0() {
+    var icone = document.querySelector('div.bloco-3');
+    icone.style.display = 'block';
+
     var menu = document.querySelector('div#menu');
     menu.style.display = 'none';
 }
