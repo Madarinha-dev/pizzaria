@@ -1,15 +1,44 @@
-function menu() {
+
+function abrir() {
     var menu = document.querySelector('div#menu');
+    menu.style.display = 'block';
+
     var fundo = document.querySelector('div#azul');
-    fundo.style.display = 'none'
-    menu.style.display = 'block'
+    fundo.style.display = 'none';
 }
+
+
+function fechar0() {
+    var menu = document.querySelector('div#menu');
+    menu.style.display = 'none';
+}
+
 
 function fechar() {
     var menu = document.querySelector('div#menu');
     var fundo = document.querySelector('div#azul');
     fundo.style.display = 'block'
     menu.style.display = 'none'
+}
+
+
+function carrinho0() {
+    var menu = document.querySelector('div#menu');
+    menu.style.display = 'none';
+
+    var carrinho = document.querySelector('div#carrinho');
+    carrinho.style.display = 'block';
+
+    var icones = document.querySelector('div.icones');
+    icones.style.display = 'none';
+}
+
+function fecharcarrinho() {
+    var icones = document.querySelector('div.icones');
+    icones.style.display = 'block';
+
+    var carrinho = document.querySelector('div#carrinho');
+    carrinho.style.display = 'none';
 }
 
 function carrinho() {
@@ -22,6 +51,7 @@ function carrinho() {
     carrinho.style.display = 'block'
     
 }
+
 
 function fc() {
     var carrinho = document.querySelector('div#carrinho');

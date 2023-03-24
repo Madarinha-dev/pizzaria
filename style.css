@@ -36,9 +36,86 @@ header {
     height: 52px;
     position:fixed;
     width:95.6vw;
-    /* width:2em; */
+    width:100vw;
     margin:auto;
 
+}
+
+header > div.header {
+    box-shadow: 0.5px 0.4px 0.5px rgb(163, 163, 163);
+    background-color: rgb(255, 255, 255);
+    margin-top: 51.5px;
+    height:25.5px;
+    width: 100vw;
+    position:fixed;
+}
+
+div.msg-2 {
+    padding:119px 10px 0px 14px; 
+    background-color:rgb(255, 255, 255);
+}
+
+div.msg-2 > p {
+    margin-left:5px;
+    background-color: #006491;
+    color:white;
+    padding:10px;
+    padding-left:12px;
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.icones {
+    background-color:white;
+    height:200px;
+}
+
+div.icones > div.bloco-1 {
+    position: absolute;
+    margin-top:1px;
+    background-color:#0078ae;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    text-align:center;
+    left: 100%;
+    margin-left: -30%;
+}
+
+div.icones > div.bloco-1:hover {
+    background-color:#004b6d;
+}
+
+div.icones > div.bloco-1 > img {
+    padding-top:17px;
+    padding-left:4px;
+}
+
+div.icones > div.bloco-2 {
+    position:absolute;
+    left:100%;
+    margin-left:-53%;
+    margin-top:25px;
+}
+
+div.icones > div.bloco-3 {
+    /* teste */
+    margin-left:12%;
+    margin-top:10px;
+    background-color: #0078ae;
+    width:80px;
+    height: 80px;
+    border-radius:50%;
+    text-align: center;
+}
+
+div.icones > div.bloco-3:hover {
+    background-color: #004b6d;
+}
+
+div.icones > div.bloco-3 > img {
+    padding-top:15px;
 }
 
 div#menu {

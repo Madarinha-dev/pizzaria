@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Domino's Pizza- A maior Pizzaria Do Mundo</title>
+</head>
+<body>
+    <header>
+        <div id="pai">
+            <div id="bloco01">
+                <a href="#" id="imagem01"><img src="imagens/menu.jpeg" alt="cardapio" id="um" onclick="abrir()"></a>
+            </div>
+
+            <div id="bloco02" onclick='carrinho0()'>
+                <a href="#" id="imagem02"><img src="imagens/carrinho.jpeg" alt="carrinho" id="dois"></a>
+            </div>
+
+            <div id="bloco03">
+                <a href="index.html" id="imagem3"><img src="imagens/domino.jpeg" alt="Logo" id="tres"></a>
+            </div>
+        </div>
+        <div class="header">
+        
+        </div>
+    </header>
+
+    <div id="menu">
+        <div>
+            <div id="imagem">
+                <a href="#"><img src="imagens/x.jpeg" alt="x" onclick="fechar0()"></a> 
+            </div>
+
+            <div id="texto">
+                <img src="imagens/contato.jpeg" alt="">
+                <p>FAZER LOGIN</p>
+            </div>
+        </div>
+        
+        <ul>
+            <li><a style="text-decoration:none; color:white;" href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+
+    <div id="carrinho">
+        <div id="menssagem">
+             CARRINHO
+        </div>
+
+        <div id="x" onclick="fecharcarrinho()">
+             <a href="#"><img src="imagens/icons8-x-67.png" alt=""></a>
+             
+        </div>
+        <div>
+             <p>
+                 Seu carrinho está vazio, mas a sua barriga não precisa estar. Adicione seus itens de preferência e volte aqui para finalizar o seu pedido.
+             </p>
+        </div>
+        <div id="botao01">
+             <a href="comecar_pedido.html">COMEÇAR O PEDIDO</a>
+        </div>
+     </div>
+
+    <div class="msg-2">
+        <p id="msg-1" style="background-color:white; color:black; font-size:20px; padding-left:0;">
+            ENCONTRE A LOJA MAIS PRÓXIMA
+        </p>
+        <p>
+            ESCOLHER A ENTREGA DESEJADA
+        </p>
+    </div>
+    
+    <div class="icones">
+
+        <div class="bloco-1">
+            <img src="imagens/icons8-entregador-48.png" alt="">
+            <p style="padding-top:20px; color:rgb(104, 104, 104); font-weight:bold; font-size:10px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; width:100px; position:absolute; right:100%; margin-right:-112%;" >
+                BUSCAR NA LOJA
+            </p>
+        </div>
+
+        <div class="bloco-2">
+            <p>
+                - ou -
+            </p>
+        </div>
+
+        <div class="bloco-3">
+            <img src="imagens/icons8-correio-51.png" alt="">
+            <p style="padding-top:20px; color:rgb(104, 104, 104); font-weight:bold; font-size:10px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; width:100px; position:absolute; left:100%; margin-left:-91%;">
+                DELIVERY
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
