@@ -259,6 +259,7 @@ article#article01 > div {
     background-color:rgb(255, 255, 255);
     width: 91vw;
     height: 50px;
+    
 }
 
 article#article01 {
@@ -323,13 +324,14 @@ div#segundo > img {
 div#recadin {
     position:fixed;
     box-shadow: 0px 1px 1px lightgray;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     /* opacity: 0.7; */
     font-weight: bold;
     top:7.30%;
     margin:auto;
     height: 42px;
-    width: 96.2vw;
+    width:95.6vw;
+    width:100vw;
  
 }
 
