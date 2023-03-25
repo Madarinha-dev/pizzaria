@@ -66,9 +66,19 @@ div.msg-2 > p {
     font-weight: 600;
 }
 
-div.icones {
+div.msg-2 > p#msg-1 {
     background-color:white;
-    height:200px;
+    color:black;
+    font-size:20px;
+    padding-left:0;
+}
+
+div.icones {
+    background-color:whitesmoke;
+    height:122px;
+    margin-left:20px;
+    margin-right:10px;
+    box-shadow:0px 1px 1px rgb(196, 196, 196);
 }
 
 div.icones > div.bloco-1 {
@@ -92,6 +102,18 @@ div.icones > div.bloco-1 > img {
     padding-left:4px;
 }
 
+div.icones > div.bloco-1 > p {
+    padding-top:20px;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    font-size:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:100px;
+    position:absolute;
+    right:100%;
+    margin-right: -112%;
+}
+
 div.icones > div.bloco-2 {
     position:absolute;
     left:100%;
@@ -100,7 +122,7 @@ div.icones > div.bloco-2 {
 }
 
 div.icones > div.bloco-3 {
-    /* teste */
+
     margin-left:12%;
     margin-top:10px;
     background-color: #0078ae;
