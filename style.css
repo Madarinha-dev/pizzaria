@@ -95,6 +95,7 @@ div.icones > div.bloco-1 {
 
 div.icones > div.bloco-1:hover {
     background-color:#004b6d;
+    background-color:red;
 }
 
 div.icones > div.bloco-1 > img {
