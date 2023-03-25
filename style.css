@@ -157,6 +157,13 @@ div#formulario {
     margin-left:20px;
     margin-right:10px;
 }
+form#form {
+    /* text-align: center; */
+    background-color: rgba(247, 200, 200, 0);
+    margin-left:20px;
+    margin-right:10px;
+    padding-left:22px;
+}
 
 div#formulario > div#fazer_login {
     background-color:#e3193b;
@@ -195,7 +202,7 @@ div#formulario > div#fazer_login > p#ou {
     font-size:13px;
 }
 
-div#formulario > div#formulario {
+form#form {
     margin-left:36px;
 }
 
@@ -224,21 +231,38 @@ div#formulario > div#link > a {
     color:#0078ae;
 }
 
-div#formulario > div#formulario > form > label#label02 {
+form#form > label#label02 {
     color:rgb(104, 104, 104);
     font-family:sans-serif;
     font-weight:bold;
+    text-align:left;
 }
 
-div#formulario > div#formulario > form > select.label {
+form#form > input#rua {
+    /* padding-right: 147px; */
+    width:71.5vw;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-color: rgba(12, 8, 8, 0.159);
+    background-color:rgba(104, 104, 104, 0.185);
+}
+
+form#form > input#numero {
+    width:71.5vw;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+
+form#form > select.label {
     border-color: rgb(104, 104, 104);
-    background-color:rgba(104, 104, 104, 0.192);
+    background-color:rgb(255, 255, 255);
     margin: 12px 10px 25px 0px;
     padding:4px 4px;
     width:72vw;
 }
 
-div#formulario > div#formulario > form > select#cidade {
+form > select#cidade {
     border-color: rgb(104, 104, 104);
     background-color:rgba(104, 104, 104, 0.192);
     margin: 12px 10px 25px 0px;
@@ -255,24 +279,24 @@ div#formulario > div#formulario > form > input.cep {
     background-color:rgba(104, 104, 104, 0.192);
 }
 
-div#formulario > div#formulario > form > select > option {
+form#form > select#estado > option {
     background-color:rgb(255, 255, 255);
 }
 
-div#formulario > div#formulario > form > label#area-de-texto > p {
+form > label#area-de-texto > p {
     color:gray;
     font-family: sans-serif;
     margin-bottom:10px;
 }
 
-div#formulario > div#formulario > form > p#campos {
+form#form > p#campos {
     padding-top:20px;
 
     margin-left: -20px;
     font-family:sans-serif;
 }
 
-div#formulario > div#formulario > form > input#submit {
+form#form > input#submit {
     background-color:#e3193b;
     font-weight: bold;
     font-size:20px;
@@ -287,7 +311,7 @@ div#formulario > div#formulario > form > input#submit {
     margin-bottom:20px;
 }
 
-div#formulario > div#formulario > form > input#submit:hover {
+form#form > input#submit:hover {
     background-color:#c21834;
     transition:0.3s;
 }

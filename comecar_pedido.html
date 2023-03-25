@@ -108,15 +108,16 @@
             </p>
         </div>
 
-        <div id="formulario">
+        <!-- <div id="formulario"> -->
 
-            <form action="" method="get">
-                <label id="cep" for="cep"><p>Insira seu CEP:</p> </label>
-                <br>
-                <input required placeholder="  EX: 12345-678" type="number" name="" id="cep">
-            </form>
+            <!-- <form action="" method="get"> -->
+                <!-- <label id="cep" for="cep"><p>Insira seu CEP:</p> </label> -->
+                <!-- <br> -->
+                <!-- <input required placeholder="  EX: 12345-678" type="number" name="" id="cep"> -->
 
-        </div>
+            <!-- </form> -->
+
+        <!-- </div> -->
 
         <div id="fazer_login">
             <p>
@@ -127,70 +128,68 @@
         <div id="link">
             <a href="#">Eu não sei meu CEP</a>
         </div>
-
-        <div id="formulario">
-            <form action="index.html" method="post" name="PEDIDO NOVO" onsubmit="abrirwhatsapp()">
-                <label name="Estado:" id="label02" for="estado">Estado:</label>
-                <br>
-                <select name="Estado" id="estado" class="label">
-                    <option value="Nenhum estado">Selecione um estado</option>
-                    <option value="Acre">Acre</option>
-                    <option value="Alagoas">Alagoas</option>
-                    <option value="Amapá">Amapá</option>
-                    <option value="Amazonas">Amazonas</option>
-                    <option value="Bahia">Bahia</option>
-                    <option value="Ceará">Ceará</option>
-                    <option value="Espíriyo Santto">Espírito Santo</option>
-                    <option value="Goiás">Goiás</option>
-                    <option value="Maranhão">Maranhão</option>
-                    <option value="Mato Grosso">Mato Grosso</option>
-                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
-                    <option value="Minas Gerais">Minas Gerais</option>
-                    <option value="Pará">Pará</option>
-                    <option value="Paraíba">Paraíba</option>
-                    <option value="Paraná">Paraná</option>
-                    <option value="Pernambuco">Pernambuco</option>
-                    <option value="Piauí">Piauí</option>
-                    <option value="Rio de Janeiro">Rio de Janeiro</option>
-                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
-                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
-                    <option value="Rondônia">Rondônia</option>
-                    <option value="Roraima">Roraima</option>
-                    <option value="Santa Catarina">Santa Catarina</option>
-                    <option value="São Paulo">São Paulo</option>
-                    <option value="Sergipe">Sergipe</option>
-                    <option value="Tocantins">Tocantins</option>
-                </select>
-                <br>
+    </div>
+        <form id="form" action="" method="post" name="PEDIDO NOVO" onsubmit="abrirwhatsapp()">
+            <label name="Estado:" id="label02" for="estado">Estado:</label>
+            <br>
+            <select name="Estado" id="estado" class="label">
+                <option value="Nenhum estado">Selecione um estado</option>
+                <option value="Acre">Acre</option>
+                <option value="Alagoas">Alagoas</option>
+                <option value="Amapá">Amapá</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Espíriyo Santto">Espírito Santo</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+                <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Pará">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraná</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+            </select>
+            <br>
 
                 <!-- interação com javscript -->
 
-                <label class="cidade"  id="label02" for="cidade">Cidade:</label>
-                <br>
-                <select name="Cidade" id="cidade" classe="label">
-                    <option value="Nenhuma cidade">Escolha a sua cidade</option>
-                    <option value="Cidade 1">Cidade 1</option>
-                    <option value="Cidade 2">Cidade 2</option>
-                    <option value="Cidade 3">Cidade 3</option>
-                    <!-- javscript para mostrar as cidade -->
-                </select>
-                <br>
-                <label id="label02" for="rua">Rua:</label>
-                <br>
-                <input type="text" name="Rua" id="rua" class="cep">
-                <br>
-                <label id="label02" for="numero">Número:</label>
-                <br>
-                <input type="tel" name="Número" id="numero" class="cep">
-                <br>
-                <label for="endereco" id="label02">Tipo de Endereço:</label>
-                <br>
-                <select name="Endereço" id="endereco" class="label">
-                    <option value="Apartamento">Apartamento</option>
-                    <option value="Casa">Casa</option>
-                    <option value="Comercial">Comercial</option>
-                </select>
-                <!-- apartamento 
+            <label class="cidade"  id="label02" for="cidade">Cidade:</label>
+            <br>
+            <select name="Cidade" id="cidade" classe="label"> 
+                <option value="Nenhuma cidade">Escolha a sua cidade</option>
+                <option value="Cidade 1">Cidade 1</option>
+                <option value="Cidade 2">Cidade 2</option>
+                <option value="Cidade 3">Cidade 3</option>
+            </select> 
+            <br>
+            <label id="label02" for="rua">Rua:</label>
+            <br>
+            <input type="text" name="Rua" id="rua" class="cep">
+            <br>
+            <label id="label02" for="numero">Número:</label>
+            <br>
+            <input type="tel" name="Número" id="numero" class="cep">
+            <br>
+            <label for="endereco" id="label02">Tipo de Endereço:</label>
+            <br>
+            <select name="Endereço" id="endereco" class="label">
+                <option value="Apartamento">Apartamento</option>
+                <option value="Casa">Casa</option>
+                <option value="Comercial">Comercial</option>
+            </select>
+                 <!-- apartamento  
                 aqui vai aparecer os input de
                 apartamento caso seja escolhido -->
 
@@ -199,17 +198,13 @@
                 caso seja escolhido -->
 
                 <!-- javsscript pra cada option -->
-                <label id="area-de-texto" for="area-de-texto"><p>Informações adicionais:</p></label>
-                <textarea name="Informações adicionais" id="area-de-texto" cols="28" rows="8"></textarea>
-                <p id="campos">
-                    Campos obrigatórios
-                </p>
-                <input id="submit" type="submit" value="CONTINUAR">
-                <!-- <input type="hidden" name="_subject" value="NOVO pedido"> -->
-            </form>
-        </div>
-
-    </div>
+            <label id="area-de-texto" for="area-de-texto"><p>Informações adicionais:</p></label>
+            <textarea name="Informações adicionais" id="area-de-texto" cols="28" rows="8"></textarea>
+            <p id="campos">
+                Campos obrigatórios
+            </p>
+            <input id="submit" type="submit" value="CONTINUAR">
+        </form>
     <script src="script.js"></script>
 </body>
 </html>

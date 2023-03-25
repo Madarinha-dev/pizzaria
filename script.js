@@ -14,7 +14,11 @@ function abrirwhatsapp() {
         + "*Número*: " + numero + "%0a"
         + "*Endereço*: " + endereco + "%0a"
         + "*Menssagem* :" + menssagem;
-    window.open(url);
+    window.open(url, '_black').focus();
+}
+
+function click() {
+    alert('oi')
 }
 
 
