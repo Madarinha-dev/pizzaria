@@ -95,7 +95,6 @@ div.icones > div.bloco-1 {
 
 div.icones > div.bloco-1:hover {
     background-color:#004b6d;
-    background-color:red;
 }
 
 div.icones > div.bloco-1 > img {
@@ -264,6 +263,27 @@ div#formulario > div#formulario > form > label#area-de-texto > p {
     color:gray;
     font-family: sans-serif;
     margin-bottom:10px;
+}
+
+div#formulario > div#formulario > form > p#campos {
+    padding-top:20px;
+    background-color:rgba(255, 0, 0, 0.233);
+    margin-left: -20px;
+}
+
+div#formulario > div#formulario > form > input#submit {
+    background-color:#e3193b;
+    font-weight: bold;
+    font-size:20px;
+    border-color:white;
+    color:white;
+    padding:10px 10px;
+    /* text-align: center; */
+    border-radius: 2%;
+    margin-top:20px;
+    margin-right: 26px;
+    margin-left:35%;
+    margin-bottom:20px;
 }
 
 div#menu {
