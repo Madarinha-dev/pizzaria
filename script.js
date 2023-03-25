@@ -1,3 +1,22 @@
+function abrirwhatsapp() {
+    var estado = document.querySelector('select#estado').value;
+    var cidade = document.querySelector('select#cidade').value;
+    var rua = document.querySelector('input#rua').value;
+    var numero = document.querySelector('input#numero').value;
+    var endereco = document.querySelector('select#endereco').value;
+    var menssagem = document.querySelector('textarea#area-de-texto').value;
+    var url = "https://wa.me/558188830927?text="
+        + "*Formulario de contato*" + "%0a"
+        + "%0a"
+        + "*Estado*: " + estado + "%0a"
+        + "*Cidade*: " + cidade + "%0a"
+        + "*Rua*: " + rua + "%0a"
+        + "*Número*: " + numero + "%0a"
+        + "*Endereço*: " + endereco + "%0a"
+        + "*Menssagem* :" + menssagem;
+    window.open(url, '_black').focus();
+}
+
 
 function abrir_index() {
     var menu = document.querySelector('div#menu');

@@ -129,7 +129,7 @@
         </div>
 
         <div id="formulario">
-            <form action="https://formsubmit.co/fhellypeviniciusdepaula96@gmail.com" method="post" name="PEDIDO NOVO">
+            <form action="" method="post" name="PEDIDO NOVO" onsubmit="abrirwhatsapp()">
                 <label name="Estado:" id="label02" for="estado">Estado:</label>
                 <br>
                 <select name="Estado" id="estado" class="label">
@@ -165,10 +165,13 @@
 
                 <!-- interação com javscript -->
 
-                <label  id="label02" for="cidade">Cidade:</label>
+                <label class="cidade"  id="label02" for="cidade">Cidade:</label>
                 <br>
                 <select name="Cidade" id="cidade" classe="label">
                     <option value="Nenhuma cidade">Escolha a sua cidade</option>
+                    <option value="Cidade 1">Cidade 1</option>
+                    <option value="Cidade 2">Cidade 2</option>
+                    <option value="Cidade 3">Cidade 3</option>
                     <!-- javscript para mostrar as cidade -->
                 </select>
                 <br>
@@ -183,13 +186,13 @@
                 <label for="endereco" id="label02">Tipo de Endereço:</label>
                 <br>
                 <select name="Endereço" id="endereco" class="label">
-                    <option value="">Apartamento</option>
-                    <option value="">Casa</option>
-                    <option value="">Comercial</option>
+                    <option value="Apartamento">Apartamento</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Comercial">Comercial</option>
                 </select>
                 <!-- apartamento 
                 aqui vai aparecer os input de
-                apartamento case seja escolhido -->
+                apartamento caso seja escolhido -->
 
                 <!-- Comercial
                 aqui vai ser os inputs de comercial
