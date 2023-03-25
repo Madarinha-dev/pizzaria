@@ -17,6 +17,19 @@ function abrirwhatsapp() {
     window.open(url, '_black').focus();
 }
 
+function estado() {
+    alert('oi')
+    var cidade = document.getElementsByName('Cidade')
+    var estado = document.querySelector('select#estado').value;
+    if (estado == 'Acre') {
+        alert('Acre')
+        var item = document.createElement('option')
+        item.text = `Acre 1000`
+        cidade.appendChild(item)
+
+    }
+ }
+
 function click() {
     alert('oi')
 }

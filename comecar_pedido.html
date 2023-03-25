@@ -119,7 +119,7 @@
 
         <!-- </div> -->
 
-        <div id="fazer_login">
+        <div  id="fazer_login">
             <p>
                 SELECIONE
             </p>
@@ -130,7 +130,7 @@
         </div>
     </div>
         <form id="form" action="" method="post" name="PEDIDO NOVO" onsubmit="abrirwhatsapp()">
-            <label name="Estado:" id="label02" for="estado">Estado:</label>
+            <label onclick="estado()" name="Estado:" id="label02" for="estado">Estado:</label>
             <br>
             <select name="Estado" id="estado" class="label">
                 <option value="Nenhum estado">Selecione um estado</option>
@@ -203,7 +203,8 @@
             <p id="campos">
                 Campos obrigatórios
             </p>
-            <input id="submit" type="submit" value="CONTINUAR">
+            <input id="reset" type="reset" value="CONTINUAR" onclick="abrirwhatsapp()">
+            <!-- <input id="submit" type="submit" value="CONTINUAR"> -->
         </form>
     <script src="script.js"></script>
 </body>
