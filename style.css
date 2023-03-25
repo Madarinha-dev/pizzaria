@@ -140,6 +140,58 @@ div.icones > div.bloco-3 > img {
     padding-top:15px;
 }
 
+div#formulario {
+    background-color: rgb(255, 255, 255);
+    margin-left:20px;
+    margin-right:10px;
+}
+
+div#formulario > div#fazer_login {
+    background-color:#e3193b;
+    text-align: center;
+    border-radius: 2%;
+    margin-left:36px;
+    margin-right: 26px;;
+}
+
+div#formulario > div#fazer_login:hover {
+    background-color: #c21834;
+    transition: 0.5s;
+}
+
+div#formulario > div#fazer_login > p {
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+div#formulario > div#fazer_login > p#texto {
+    background-color:white;
+    color:gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:0;
+    padding:2px 0px 0px 10px; 
+    text-align: left;
+    font-size: 12px;
+
+}
+
+div#formulario > div#fazer_login > p#ou {
+    background-color:white;
+    color:gray;
+    font-size:13px;
+}
+
+div#formulario > div#formulario {
+    margin-left:36px;
+}
+
+div#formulario > div#formulario > form > label#cep {
+    width:500px;
+}
+
+
 div#menu {
     width:47vw;
     height: 100vh;
