@@ -89,7 +89,7 @@
 
         <div class="bloco-3">
             <img src="imagens/icons8-correio-51.png" alt="">
-            <p style="padding-top:20px; color:rgb(104, 104, 104); font-weight:bold; font-size:10px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; width:100px; position:absolute; left:100%; margin-left:-91%;">
+            <p>
                 DELIVERY
             </p>
         </div>
@@ -111,9 +111,9 @@
         <div id="formulario">
 
             <form action="" method="get">
-                <label id="cep" for="cep"><p style="color: rgba(0, 0, 0, 0.589); font-family:sans-serif; font-weight:bold;">Insira seu CEP:</p> </label>
+                <label id="cep" for="cep"><p>Insira seu CEP:</p> </label>
                 <br>
-                <input required placeholder="  EX: 12345-678" type="number" name="" id="cep" style="border-color:rgba(0, 0, 0, 0.37); margin-top:12px; margin-bottom:15px; padding:4px 4px; width:70vw;">
+                <input required placeholder="  EX: 12345-678" type="number" name="" id="cep">
             </form>
 
         </div>
@@ -124,28 +124,80 @@
             </p>
         </div>
 
-        <div id="link" style="margin-bottom:20px; text-align:center; margin-top:15px;">
-            <a href="#" style="text-decoration-color:#0078ae; color:#0078ae;">Eu não sei meu CEP</a>
+        <div id="link">
+            <a href="#">Eu não sei meu CEP</a>
         </div>
 
         <div id="formulario">
             <form action="" method="get">
-                <label style=" color: rgba(0, 0, 0, 0.705); font-family:sans-serif; font-weight:bold;" for="estado">Estado:</label>
+                <label id="label02" for="estado">Estado:</label>
                 <br>
-                <input placeholder="Selecione um estado" type="text" name="" id="estado" style="border-color:rgba(0, 0, 0, 0.37); margin-top:12px; margin-bottom:25px; padding:4px 4px; width:70vw;">
+                <select name="" id="estado" class="label">
+                    <option value="">Selecione um estado</option>
+                    <option value="">Acre</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Amapá</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Bahia</option>
+                    <option value="">Ceará</option>
+                    <option value="">Espírito Santo</option>
+                    <option value="">Goiás</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Mato Grosso</option>
+                    <option value="">Mato Grosso do Sul</option>
+                    <option value="">Minas Gerais</option>
+                    <option value="">Pará</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Paraná</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Piauí</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Rio Grande do Norte</option>
+                    <option value="">Rio Grande do Sul</option>
+                    <option value="">Rondônia</option>
+                    <option value="">Roraima</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Tocantins</option>
+                </select>
                 <br>
 
-                <label for="cidade" style="color: rgba(0, 0, 0, 0.705); font-family:sans-serif; font-weight:bold;">Cidade:</label>
+                <!-- interação com javscript -->
+
+                <label id="label02" for="cidade">Cidade:</label>
                 <br>
-                <input placeholder="Selecione uma cidade" type="text" name="" id="cidade" style="border-color:rgba(0, 0, 0, 0.37); margin-top:12px; margin-bottom:25px; padding:4px 4px; width:70vw;">
+                <select name="" id="cidade" classe="label">
+                    <option value="">Escolha a sua cidade</option>
+                    <!-- javscript para mostrar as cidade -->
+                </select>
                 <br>
-                <label for="rua" style="color: rgba(0, 0, 0, 0.705); font-family:sans-serif; font-weight:bold;">Rua:</label>
+                <label id="label02" for="rua">Rua:</label>
                 <br>
-                <input type="text" name="" id="rua" style="border-color:rgba(0, 0, 0, 0.37); margin-top:12px; margin-bottom:25px; padding:4px 4px; width:70vw;">
+                <input type="text" name="" id="rua" class="cep">
                 <br>
-                <label for="numero" style="color: rgba(0, 0, 0, 0.705); font-family:sans-serif; font-weight:bold;">Número:</label>
+                <label id="label02" for="numero">Número:</label>
                 <br>
-                <input type="tel" name="" id="numero" style="border-color:rgba(0, 0, 0, 0.37); margin-top:12px; margin-bottom:25px; padding:4px 4px; width:70vw;">
+                <input type="tel" name="" id="numero" class="cep">
+                <br>
+                <label for="endereco" id="label02">Tipo de Endereço:</label>
+                <br>
+                <select name="" id="endereco" class="label">
+                    <option value="">Apartamento</option>
+                    <option value="">Casa</option>
+                    <option value="">Comercial</option>
+                </select>
+                <!-- apartamento 
+                aqui vai aparecer os input de
+                apartamento case seja escolhido -->
+
+                <!-- Comercial
+                aqui vai ser os inputs de comercial
+                caso seja escolhido -->
+
+                <!-- javsscript pra cada option -->
+                <label id="area-de-texto" for="area-de-texto"><p>Informações adicionais:</p></label>
+                <textarea name="" id="area-de-texto" cols="28" rows="8"></textarea>
             </form>
         </div>
 

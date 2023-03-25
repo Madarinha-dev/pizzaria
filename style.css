@@ -141,6 +141,18 @@ div.icones > div.bloco-3 > img {
     padding-top:15px;
 }
 
+div.icones > div.bloco-3 > p {
+    padding-top:20px;
+    color: rgb(104, 104, 104);
+    font-weight:bold;
+    font-size:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:100px;
+    position:absolute;
+    left:100%;
+    margin-left:-91%;
+}
+
 div#formulario {
     background-color: rgb(255, 255, 255);
     margin-left:20px;
@@ -188,10 +200,71 @@ div#formulario > div#formulario {
     margin-left:36px;
 }
 
-div#formulario > div#formulario > form > label#cep {
-    width:500px;
+div#formulario > div#formulario > form > label#cep > P {
+    color:rgb(104, 104, 104);
+    font-family:sans-serif;
+    font-weight:bold;
 }
 
+div#formulario > div#formulario > form > input#cep {
+    border-color:rgb(104, 104, 104);
+    margin-top:12px;
+    margin-bottom:15px;
+    padding:4px 4px;
+    width:70vw;
+}
+
+div#formulario > div#link {
+    margin-bottom:20px;
+    text-align:center;
+    margin-top:15px;
+}
+
+div#formulario > div#link > a {
+    text-decoration-color: #0078ae;
+    color:#0078ae;
+}
+
+div#formulario > div#formulario > form > label#label02 {
+    color:rgb(104, 104, 104);
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+div#formulario > div#formulario > form > select.label {
+    border-color: rgb(104, 104, 104);
+    background-color:rgba(104, 104, 104, 0.192);
+    margin: 12px 10px 25px 0px;
+    padding:4px 4px;
+    width:72vw;
+}
+
+div#formulario > div#formulario > form > select#cidade {
+    border-color: rgb(104, 104, 104);
+    background-color:rgba(104, 104, 104, 0.192);
+    margin: 12px 10px 25px 0px;
+    padding:4px 4px;
+    width:72vw;
+}
+
+div#formulario > div#formulario > form > input.cep {
+    border-color:rgba(104, 104, 104, 0.37);
+    margin-top:12px;
+    margin-bottom:15px;
+    padding:4px 4px;
+    width:70vw;
+    background-color:rgba(104, 104, 104, 0.192);
+}
+
+div#formulario > div#formulario > form > select > option {
+    background-color:rgb(255, 255, 255);
+}
+
+div#formulario > div#formulario > form > label#area-de-texto > p {
+    color:gray;
+    font-family: sans-serif;
+    margin-bottom:10px;
+}
 
 div#menu {
     width:47vw;
