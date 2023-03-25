@@ -267,8 +267,9 @@ div#formulario > div#formulario > form > label#area-de-texto > p {
 
 div#formulario > div#formulario > form > p#campos {
     padding-top:20px;
-    background-color:rgba(255, 0, 0, 0.233);
+
     margin-left: -20px;
+    font-family:sans-serif;
 }
 
 div#formulario > div#formulario > form > input#submit {
@@ -284,6 +285,11 @@ div#formulario > div#formulario > form > input#submit {
     margin-right: 26px;
     margin-left:35%;
     margin-bottom:20px;
+}
+
+div#formulario > div#formulario > form > input#submit:hover {
+    background-color:#c21834;
+    transition:0.3s;
 }
 
 div#menu {
