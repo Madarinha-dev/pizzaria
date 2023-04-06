@@ -24,9 +24,10 @@
 }
 
 body{
+    /* background-color: rgba(249, 16, 16, 0.593); */
     background-color: whitesmoke;
-    margin:auto;
-    padding-right: 10px;
+    /* margin:auto; */
+    /* padding-right: 10px; */
     
 }
 
@@ -39,7 +40,7 @@ header {
     background-color: #006491;
     height: 52px;
     position:fixed;
-    width:95.6vw;
+    /* width:95.6vw; */
     width:100vw;
     margin:auto;
 
@@ -259,7 +260,7 @@ form#form > label#label02 {
 
 form#form > input#rua {
 
-    width:71.5vw;
+    width: 320px;
     margin-top:20px;
     margin-bottom:20px;
     border-color: rgba(12, 8, 8, 0.159);
@@ -267,7 +268,7 @@ form#form > input#rua {
 }
 
 form#form > input#numero {
-    width:71.5vw;
+    width:320px;
     margin-top:20px;
     margin-bottom:20px;
     
@@ -278,7 +279,7 @@ form#form > select.label {
     background-color:rgb(255, 255, 255);
     margin: 12px 10px 25px 0px;
     padding:4px 4px;
-    width:72vw;
+    width:320px;
 }
 
 form > select#cidade {
@@ -286,7 +287,7 @@ form > select#cidade {
     background-color:rgba(104, 104, 104, 0.192);
     margin: 12px 10px 25px 0px;
     padding:4px 4px;
-    width:72vw;
+    width:320px;
 }
 
 div#formulario > div#formulario > form > input.cep {
@@ -322,7 +323,7 @@ form#form > input#submit {
     border-color:white;
     color:white;
     padding:10px 10px;
-    /* text-align: center; */
+
     border-radius: 2%;
     margin-top:20px;
     margin-right: 26px;
