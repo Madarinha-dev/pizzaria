@@ -27,7 +27,7 @@ body{
     background-color: whitesmoke;
     margin:auto;
     padding-right: 10px;
-
+    
 }
 
 body::-webkit-scrollbar {
@@ -42,7 +42,7 @@ header {
     width:95.6vw;
     width:100vw;
     margin:auto;
-    /* display: fixed; */
+
 
 }
 
@@ -55,14 +55,19 @@ header > div.header {
     position:fixed;
 }
 
+header > div#pai > div#bloco03 {
+    align-items: center;
+
+}
+
 div.msg-2 {
-    padding:119px 10px 0px 14px;
-    background-color:whitesmoke;
+    padding:119px 10px 0px 10.5px;
+    background-color: whitesmoke;
 
 }
 
 div.msg-2 > p {
-    margin-left:10px;
+    margin: 0 auto;
     background-color: #006491;
     color:white;
     padding:10px;
@@ -70,6 +75,8 @@ div.msg-2 > p {
     font-family:sans-serif;
     font-size: 16px;
     font-weight: 600;
+    max-width: 380px;
+    
 }
 
 div.msg-2 > p#msg-1 {
@@ -80,12 +87,13 @@ div.msg-2 > p#msg-1 {
 }
 
 div.icones {
+    margin: 0 auto;
     padding-top:10px;
-    background-color:rgb(255, 255, 255);
+    background-color:white;
     height:122px;
-    margin-left:22px;
-    margin-right:10px;
+
     box-shadow:0px 1px 1px rgb(196, 196, 196);
+    max-width: 400px;
 }
 
 div.icones > div.bloco-1 {
@@ -95,9 +103,7 @@ div.icones > div.bloco-1 {
     width:80px;
     height:80px;
     border-radius:50%;
-    text-align:center;
-    left: 100%;
-    margin-left: -30%;
+    margin-left: 290px;
 }
 
 div.icones > div.bloco-1:hover {
@@ -107,6 +113,7 @@ div.icones > div.bloco-1:hover {
 div.icones > div.bloco-1 > img {
     padding-top:17px;
     padding-left:4px;
+    padding-left: 17px;
 }
 
 div.icones > div.bloco-1 > p {
@@ -118,18 +125,18 @@ div.icones > div.bloco-1 > p {
     width:100px;
     position:absolute;
     right:100%;
-    margin-right: -112%;
+    margin-right: -125%;
+    
 }
 
 div.icones > div.bloco-2 {
     position:absolute;
-    left:100%;
-    margin-left:-53.5%;
+    margin-left:185px;
     margin-top:25px;
 }
 
 div.icones > div.bloco-3 {
-
+    
     margin-left:9%;
     margin-top:0px;
     background-color: #0078ae;
@@ -154,18 +161,18 @@ div.icones > div.bloco-3 > p {
     font-size:10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width:100px;
+    margin-left:-12px;
     position:absolute;
-    left:100%;
-    margin-left: -86.5%;
+    
     
 }
 
 div#formulario {
     background-color: rgb(255, 255, 255);
-    margin-left:22px;
-    margin-right:10px;
+    max-width: 400px;
     display: none;
     padding-bottom:1px;
+    margin: 0 auto;
 }
 
 
@@ -175,7 +182,7 @@ div#formulario > div#fazer_login {
     border-radius: 2%;
     margin-left:36px;
     margin-right: 26px;
-    /* display: none; */
+
 }
 
 div#formulario > div#fazer_login:hover {
@@ -209,11 +216,12 @@ div#formulario > div#fazer_login > p#ou {
 }
 
 form#form {
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     padding-left:22px;
-    margin-left:22px;
+    /* margin-left:22px; */
+    margin: 0 auto;
     display:none;
-    max-width: 87.5%;
+    max-width: 380px;
 }
 
 div#formulario > div#formulario > form > label#cep > P {
@@ -250,7 +258,7 @@ form#form > label#label02 {
 }
 
 form#form > input#rua {
-    /* padding-right: 147px; */
+
     width:71.5vw;
     margin-top:20px;
     margin-bottom:20px;
@@ -329,7 +337,7 @@ form#form > input#reset {
     border-color:white;
     color:white;
     padding:10px 10px;
-    /* text-align: center; */
+    
     border-radius: 2%;
     margin-top:20px;
     margin-right: 26px;
