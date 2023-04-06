@@ -87,8 +87,8 @@
             </p>
         </div>
 
-        <div class="bloco-3">
-            <img src="imagens/icons8-correio-51.png" alt="">
+        <div class="bloco-3" id="delivery">
+            <img src="imagens/icons8-correio-51.png" alt="" onclick="delivery()">
             <p>
                 DELIVERY
             </p>
@@ -108,17 +108,6 @@
             </p>
         </div>
 
-        <!-- <div id="formulario"> -->
-
-            <!-- <form action="" method="get"> -->
-                <!-- <label id="cep" for="cep"><p>Insira seu CEP:</p> </label> -->
-                <!-- <br> -->
-                <!-- <input required placeholder="  EX: 12345-678" type="number" name="" id="cep"> -->
-
-            <!-- </form> -->
-
-        <!-- </div> -->
-
         <div  id="fazer_login">
             <p>
                 SELECIONE
@@ -130,7 +119,7 @@
         </div>
     </div>
         <form id="form" action="" method="post" name="PEDIDO NOVO" onsubmit="abrirwhatsapp()">
-            <label onclick="estado()" name="Estado:" id="label02" for="estado">Estado:</label>
+            <label name="Estado:" id="label02" for="estado">Estado:</label>
             <br>
             <select name="Estado" id="estado" class="label">
                 <option value="Nenhum estado">Selecione um estado</option>
@@ -163,8 +152,6 @@
             </select>
             <br>
 
-                <!-- interação com javscript -->
-
             <label class="cidade"  id="label02" for="cidade">Cidade:</label>
             <br>
             <select name="Cidade" id="cidade" classe="label"> 
@@ -189,22 +176,12 @@
                 <option value="Casa">Casa</option>
                 <option value="Comercial">Comercial</option>
             </select>
-                 <!-- apartamento  
-                aqui vai aparecer os input de
-                apartamento caso seja escolhido -->
-
-                <!-- Comercial
-                aqui vai ser os inputs de comercial
-                caso seja escolhido -->
-
-                <!-- javsscript pra cada option -->
             <label id="area-de-texto" for="area-de-texto"><p>Informações adicionais:</p></label>
             <textarea name="Informações adicionais" id="area-de-texto" cols="28" rows="8"></textarea>
             <p id="campos">
                 Campos obrigatórios
             </p>
             <input id="reset" type="reset" value="CONTINUAR" onclick="abrirwhatsapp()">
-            <!-- <input id="submit" type="submit" value="CONTINUAR"> -->
         </form>
     <script src="script.js"></script>
 </body>

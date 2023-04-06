@@ -1,3 +1,13 @@
+function delivery() {
+    var link = document.querySelector('div#link')
+    var form = document.querySelector('form#form')
+    var login = document.querySelector('div#fazer_login')
+    var icone = document.querySelector('div#delivery')
+    login.style.display = 'block'
+    form.style.display = 'block'
+    link.style.display = 'block'
+}
+
 function abrirwhatsapp() {
     var estado = document.querySelector('select#estado').value;
     var cidade = document.querySelector('select#cidade').value;
@@ -29,11 +39,6 @@ function estado() {
 
     }
  }
-
-function click() {
-    alert('oi')
-}
-
 
 function abrir_index() {
     var menu = document.querySelector('div#menu');

@@ -158,7 +158,6 @@ div#formulario {
     margin-right:10px;
 }
 form#form {
-    /* text-align: center; */
     background-color: rgba(247, 200, 200, 0);
     margin-left:20px;
     margin-right:10px;
@@ -170,11 +169,13 @@ div#formulario > div#fazer_login {
     text-align: center;
     border-radius: 2%;
     margin-left:36px;
-    margin-right: 26px;;
+    margin-right: 26px;
+    display: none;
 }
 
 div#formulario > div#fazer_login:hover {
     background-color: #c21834;
+    color: black;
     transition: 0.5s;
 }
 
@@ -204,6 +205,7 @@ div#formulario > div#fazer_login > p#ou {
 
 form#form {
     margin-left:36px;
+    display:none;
 }
 
 div#formulario > div#formulario > form > label#cep > P {
@@ -224,6 +226,7 @@ div#formulario > div#link {
     margin-bottom:20px;
     text-align:center;
     margin-top:15px;
+    display: none;
 }
 
 div#formulario > div#link > a {
