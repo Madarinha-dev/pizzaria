@@ -1,7 +1,7 @@
 function delivery() {
     var link = document.querySelector('div#link')
     var form = document.querySelector('form#form')
-    var login = document.querySelector('div#fazer_login')
+    var login = document.querySelector('div#formulario')
     var icone = document.querySelector('div#delivery')
     login.style.display = 'block'
     form.style.display = 'block'
