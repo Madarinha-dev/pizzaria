@@ -28,17 +28,22 @@ function abrirwhatsapp() {
 }
 
 function estado() {
-    alert('oi')
-    var cidade = document.getElementsByName('Cidade')
+    var cidade = document.querySelector('select#cidade').value;
+    var valores = document.querySelector('select#cidade');
     var estado = document.querySelector('select#estado').value;
+    alert(`esse foi o estado: ${estado}`)
+    alert(`essa foi a cidade: ${cidade}`)
     if (estado == 'Acre') {
-        alert('Acre')
-        var item = document.createElement('option')
-        item.text = `Acre 1000`
-        cidade.appendChild(item)
-
+        alert('Fhellype')
+        var option = document.childElementCount = (option, 'value="Fhellype')
+        valores.appendChild = option
+        alert(valores)
+        alert('oi')
     }
- }
+
+}
+
+
 
 function abrir_index() {
     var menu = document.querySelector('div#menu');
