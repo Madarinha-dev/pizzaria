@@ -554,23 +554,24 @@ article#article01 > div > div#bloco02:hover {
 div#primeiro > img {
     background-color: rgba(110, 110, 219, 0.177);
     padding-top: 30px;
-    /* padding-left: 0px; */
+
     max-width: 95%;
     
 }
 
 div#primeiro {
-    background-color: rgb(230, 196, 196);
+    background-color: blueviolet;
     text-align: center;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 560px;
 
 }
 
 div#segundo {
     text-align: center;
     margin: 0 auto;
-    max-width:605px;
+    max-width:560px;
+    background-color: red;
 }
 
 div#segundo > img {
