@@ -223,8 +223,7 @@ form#form {
     margin: 0 auto;
     display:none;
     max-width: 380px;
-    /* margin: 0 auto; */
-    /* max-width: 380px; */
+    
 }
 
 div#formulario > div#formulario > form > label#cep > P {
@@ -370,11 +369,13 @@ div#menu {
 }
 
 div#menu > ul > li {
-    color: white;
-    padding-top: 10px;
+    padding:10px;
     padding-left: 18px;
-    /* width: 42vw; tenção */
-    padding-bottom: 10px;
+}
+
+div#menu > ul > li > a {
+    color: white;
+    text-decoration: none;
     font-size: 16px ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -499,18 +500,17 @@ article {
 
 article#article01 > div {
     background-color:white;
-    /* background-color: green; */
-    /* width: 91vw; */
+
     max-width: 530px;
     margin: 0 auto;
     height: 50px;
-    /* margin-left: 10px; */
+
     
 }
 
 article#article01 {
     padding:10px 10px 10px 12px;
-
+    
 }
 
 
@@ -538,11 +538,11 @@ article#article01 > div > div#bloco02 > a {
 }
 
 article#article01 > div > div#bloco02 {
-    /* background-color: #e3193b;  */
-    background-color: red;
+
+    background-color: #e3193b;
     text-align: center;
     height: 30px;
-    /* width: 91vw; */
+
     box-shadow: 2px 3px 6px rgb(0 0 0 / 50%);
 }
 
@@ -587,7 +587,7 @@ div#recadin {
     background-color: rgb(255, 255, 255);
 
     font-weight: bold;
-    top:7.30%;
+    top: 51px;
     margin:auto;
     height: 42px;
     width:95.6vw;
@@ -609,15 +609,18 @@ div#recadin > div#acompanhe > a {
 
 div#recadin > div#login01 {
     position: absolute;
-    padding: 10px;
+
     left: 100%;
-    margin-left: -20%;
+    margin-left: -12%;
+    height: 20px;
+    padding-top: 10px;
+    text-align: right;
 
 }
 
 div#recadin > div#login01 > a {
     text-decoration-line: none;
-    padding:10px;
+
     color: #0078ae;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -646,10 +649,12 @@ header > div#pai > div#bloco02 > a#imagem02 > img#dois {
 }
 
 header > div#pai > div#bloco02 {
-   display: inline-block;
+
    position: absolute;
+   position: fixed;
    left: 100%;
-   margin-left: -12%;
+   margin-left: -11%;
+   
    
 }
 
@@ -657,13 +662,23 @@ header > div#pai > div#bloco03 > a#imagem3 > img#tres {
     width: 50px;
     height: 50px;
     padding: 1px 5px 5px 0px;
+    
 }
 
 header > div#pai > div#bloco03 {
     display: inline-block;
    position: absolute;
-   left: 100%;
-   margin-left: -55%;
+   margin-left: 46%;
+   /* padding-right: ; */
+   /* margin: 0 auto; */
+   /* width: 100%; */
+   /* text-align: center; */
+   /* background-color: yellow; */
+}
+
+header > div#pai > div#bloco03 > a {
+    
+
 }
 
 div#titulo {
@@ -807,10 +822,10 @@ footer {
 /*                    aqui vai para telas maiores do mobile                    */
 
 
-/* @media screen and (min-width: 700px) { */
-    /* body { */
-        /* display: none; */
-    /* } */
+@media screen and (min-width: 580px) {
+    body {
+        background-color:red;
+    }
 
 
-/* } */
+}

@@ -31,14 +31,13 @@ function estado() {
     var cidade = document.querySelector('select#cidade').value;
     var valores = document.querySelector('select#cidade');
     var estado = document.querySelector('select#estado').value;
-    alert(`esse foi o estado: ${estado}`)
-    alert(`essa foi a cidade: ${cidade}`)
+
     if (estado == 'Acre') {
-        alert('Fhellype')
+        
         var option = document.childElementCount = (option, 'value="Fhellype')
         valores.appendChild = option
         alert(valores)
-        alert('oi')
+        
     }
 
 }
