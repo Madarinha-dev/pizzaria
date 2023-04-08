@@ -219,10 +219,12 @@ div#formulario > div#fazer_login > p#ou {
 form#form {
     background-color:rgb(255, 255, 255);
     padding-left:22px;
-    /* margin-left:22px; */
+
     margin: 0 auto;
     display:none;
     max-width: 380px;
+    /* margin: 0 auto; */
+    /* max-width: 380px; */
 }
 
 div#formulario > div#formulario > form > label#cep > P {
@@ -357,10 +359,12 @@ form#form > input#submit:hover {
 }
 
 div#menu {
-    width:47vw;
+    /* width:47vw; */
+    width: 230px;
     height: 100vh;
     background-color:#0081bd;
     position: fixed;
+    /* display: block; */
     display:none;
     animation: esquerda-pra-direita 1s; 
 }
@@ -369,7 +373,7 @@ div#menu > ul > li {
     color: white;
     padding-top: 10px;
     padding-left: 18px;
-    width: 42vw; /* tenção*/
+    /* width: 42vw; tenção */
     padding-bottom: 10px;
     font-size: 16px ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -495,15 +499,19 @@ article {
 
 article#article01 > div {
     background-color:rgb(255, 255, 255);
-    width: 91vw;
+    /* width: 91vw; */
+    max-width: 380px;
+    margin: 0 auto;
     height: 50px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     
 }
 
 article#article01 {
     padding:10px 10px 10px 12px;
+
 }
+
 
 article#article01 > div > div#bloco01 > p {
     padding:5px 5px 2px 5px ;
@@ -516,9 +524,10 @@ article#article01 > div > div#bloco01 > p {
 
 article#article01 > div > div#bloco01 {
     height:40px;
-    
+    margin: 0 auto;
+    max-width: 380px;
 }
-
+    
 article#article01 > div > div#bloco02 > a {
     text-decoration-line: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -528,10 +537,11 @@ article#article01 > div > div#bloco02 > a {
 }
 
 article#article01 > div > div#bloco02 {
-    background-color: #e3193b; 
+    /* background-color: #e3193b;  */
+    background-color: red;
     text-align: center;
     height: 30px;
-    width: 91vw;
+    /* width: 91vw; */
     box-shadow: 2px 3px 6px rgb(0 0 0 / 50%);
 }
 
@@ -541,10 +551,11 @@ article#article01 > div > div#bloco02:hover {
 }
 
 div#primeiro > img {
-    padding-top: 30px; 
-    margin: auto;
-    margin-left: 10px;
-    width: 91vw; 
+    padding-top: 30px;
+    max-width: 380px;
+    /* margin: auto; */
+    /* margin-left: 10px; */
+    /* width: 91vw;  */
 }
 
 div#primeiro {
@@ -552,11 +563,14 @@ div#primeiro {
 
 }
 
+div#segundo {
+    text-align: center;
+}
+
 div#segundo > img {
     padding-top: 20px;
-    padding-left: 12px;
-    text-align: center;
-    width: 91vw;
+    max-width: 380px;
+    margin: 0 auto;
 
 }
 
@@ -564,7 +578,7 @@ div#recadin {
     position:fixed;
     box-shadow: 0px 1px 1px lightgray;
     background-color: rgb(255, 255, 255);
-    /* opacity: 0.7; */
+
     font-weight: bold;
     top:7.30%;
     margin:auto;
@@ -621,7 +635,7 @@ header > div#pai > div#bloco02 > a#imagem02 > img#dois {
     width: 40px;
     height: 40px;
     padding: 1px 5px 5px 0px;
-    /* text-align: center; */
+    
 }
 
 header > div#pai > div#bloco02 {
@@ -653,7 +667,7 @@ div#botoes > div {
     background-color: #e3193b;
     text-align: center;
     height: 28px;
-    width: 91vw;
+    /* width: 91vw; */
     box-shadow: 2px 3px 6px rgb(0 0 0 / 50%);
     padding-top: 10px;
 }
@@ -668,8 +682,8 @@ div#botoes > div > a {
 
 div#botoes {
     padding-top: 15px;
-    padding-left: 12px;
-    width: 95vw;
+    max-width: 380px;
+    margin: 0 auto;
 }
 
 div#botoes > div:hover {
@@ -678,16 +692,19 @@ div#botoes > div:hover {
 }
 
 div#azul {
+    /* background-color: red; */
     padding-top:14px;
     padding-bottom: 54px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
 }
 
-div#azul > div { 
+div#azul > div {
+    margin: 0 auto;
     background-color: #0078ae; 
     text-align: center;
     height: 100px;
-    width: 91vw;
+    max-width: 380px;
+    /* width: 91vw; */
     padding-top: 10px;
     border-radius: 10px;
 }
@@ -774,14 +791,13 @@ footer {
     padding-left: 10px;
 }
 
-/* Daqui pra frente vai er configuração pra dispositivos maiores 
-@media screen and (min-width: 700px) {
-    body {
-        background-color: red;
-    }
+/*                    aqui vai para telas maiores do mobile                    */
 
-    header {
-        background-color:green;
-    }
-}
-*/
+
+/* @media screen and (min-width: 700px) { */
+    /* body { */
+        /* display: none; */
+    /* } */
+
+
+/* } */
