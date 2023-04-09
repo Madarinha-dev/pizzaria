@@ -52,7 +52,7 @@ header > div.header {
     background-color: rgb(255, 255, 255);
     margin-top: 51.5px;
     height:25.5px;
-    width: 100vw;
+    width: 100%;
     position:fixed;
 }
 
@@ -76,7 +76,7 @@ div.msg-2 > p {
     font-family:sans-serif;
     font-size: 16px;
     font-weight: 600;
-    max-width: 380px;
+    max-width: 359px;
     
 }
 
@@ -94,7 +94,7 @@ div.icones {
     height:122px;
 
     box-shadow:0px 1px 1px rgb(196, 196, 196);
-    max-width: 400px;
+    max-width: 379px;
 }
 
 div.icones > div.bloco-1 {
@@ -132,7 +132,7 @@ div.icones > div.bloco-1 > p {
 
 div.icones > div.bloco-2 {
     position:absolute;
-    margin-left:185px;
+    margin-left:180px;
     margin-top:25px;
 }
 
@@ -170,7 +170,7 @@ div.icones > div.bloco-3 > p {
 
 div#formulario {
     background-color: rgb(255, 255, 255);
-    max-width: 400px;
+    max-width: 379px;
     display: none;
     padding-bottom:1px;
     margin: 0 auto;
@@ -222,7 +222,8 @@ form#form {
 
     margin: 0 auto;
     display:none;
-    max-width: 380px;
+    /* max-width: 380px; */
+    max-width: 358px;
     
 }
 
@@ -611,10 +612,11 @@ div#recadin > div#login01 {
     position: absolute;
 
     left: 100%;
-    margin-left: -12%;
+    margin-left: -13%;
     height: 20px;
     padding-top: 10px;
     text-align: right;
+    /* background-color: red; */
 
 }
 
@@ -624,6 +626,10 @@ div#recadin > div#login01 > a {
     color: #0078ae;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
 }
 
 header > div#pai {
@@ -644,7 +650,7 @@ header > div#pai > div#bloco01 {
 header > div#pai > div#bloco02 > a#imagem02 > img#dois {
     width: 40px;
     height: 40px;
-    padding: 1px 5px 5px 0px;
+
     
 }
 
@@ -653,7 +659,8 @@ header > div#pai > div#bloco02 {
    position: absolute;
    position: fixed;
    left: 100%;
-   margin-left: -11%;
+   margin-left: -13%;
+   /* background-color: red; */
    
    
 }

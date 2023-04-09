@@ -6,6 +6,21 @@ function delivery() {
     login.style.display = 'block'
     form.style.display = 'block'
     link.style.display = 'block'
+    alert('Eu preciso configurar javascript aqui e em outros lugares no site')
+}
+
+function buscar() {
+    alert('oi')
+    var link = document.querySelector('div#link')
+    var form = document.querySelector('form#form')
+    var login = document.querySelector('div#formulario')
+    login.style.display = 'none'
+    form.style.display = 'none'
+    link.style.display = 'none'
+    alert('Aqui ja vai ter que aparecer um trecho do google maps')
+    alert('mostrando todas as pizzarias da região')
+
+    
 }
 
 function abrirwhatsapp() {
@@ -28,18 +43,8 @@ function abrirwhatsapp() {
 }
 
 function estado() {
-    var cidade = document.querySelector('select#cidade').value;
-    var valores = document.querySelector('select#cidade');
-    var estado = document.querySelector('select#estado').value;
-
-    if (estado == 'Acre') {
-        
-        var option = document.childElementCount = (option, 'value="Fhellype')
-        valores.appendChild = option
-        alert(valores)
-        
-    }
-
+    var oi = document.querySelector('select#cidade')
+    
 }
 
 
@@ -79,6 +84,8 @@ function fechar_carrinho_index() {
 function abrir_aba_comecar_pedido() {
     var barra = document.querySelector('div#menu');
     var fundo = document.querySelector('div.bloco-3');
+    var fundoo = document.querySelector('div.bloco-2');
+    fundoo.style.display = 'none';
     fundo.style.display = 'none';
     barra.style.display = 'block';
 }
@@ -86,6 +93,9 @@ function abrir_aba_comecar_pedido() {
 function fechar_aba_comecar_pedido() {
     var barra = document.querySelector('div#menu');
     var fundo = document.querySelector('div.bloco-3');
+    var fundoo = document.querySelector('div.bloco-2');
+    fundoo.style.display = 'block';
+    
     fundo.style.display = 'block';
     barra.style.display = 'none';
 }
