@@ -170,9 +170,15 @@ div.icones > div.bloco-3 > p {
 
 
 div#googlemaps {
-    background-color: green;
+    /* background-color: green; */
+    display: none;
     max-width: 380px;
     margin: 0 auto;
+}
+
+div#googlemaps > iframe {
+    width: 380px;
+    height: 400px;
 }
 
 div#googlemaps > p {

@@ -3,23 +3,39 @@ function delivery() {
     var form = document.querySelector('form#form')
     var login = document.querySelector('div#formulario')
     var icone = document.querySelector('div#delivery')
+    var maps = document.querySelector('div#googlemaps')
+
+
+    // ===== aqui abri o 'delivery' =====
+    // - precisa de javascript no formulario pra ele mostrar so as cidades
+    //   do estado que ele escolheu.
+
     login.style.display = 'block'
     form.style.display = 'block'
     link.style.display = 'block'
-    alert('Eu preciso configurar javascript aqui e em outros lugares no site')
+
+
+    // ====== aqui fecha 'buscar na loja' caso esteja aberto ======
+    // - por enquanto nada
+    maps.style.display = 'none'
 }
 
 function buscar() {
-    // alert('oi')
+
     var link = document.querySelector('div#link')
     var form = document.querySelector('form#form')
     var login = document.querySelector('div#formulario')
-    // aqui fica a sessao q desliga o "delivery"
+    var maps = document.querySelector('div#googlemaps')
+
+    // ===== aqui fica a sessao q desliga o "delivery" =====
     login.style.display = 'none'
     form.style.display = 'none'
     link.style.display = 'none'
-    alert('Aqui ja vai ter que aparecer um trecho do google maps')
-    // alert('mostrando todas as pizzarias da região')
+
+    // ===== aqui vai mostras tudo do icone 'buscar na loja' =====
+    // - A parte visual do formulario.
+    // - Função de javascript no formulario.
+    maps.style.display = 'block'
 
     
 }
