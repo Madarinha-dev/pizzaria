@@ -10,15 +10,16 @@ function delivery() {
 }
 
 function buscar() {
-    alert('oi')
+    // alert('oi')
     var link = document.querySelector('div#link')
     var form = document.querySelector('form#form')
     var login = document.querySelector('div#formulario')
+    // aqui fica a sessao q desliga o "delivery"
     login.style.display = 'none'
     form.style.display = 'none'
     link.style.display = 'none'
     alert('Aqui ja vai ter que aparecer um trecho do google maps')
-    alert('mostrando todas as pizzarias da região')
+    // alert('mostrando todas as pizzarias da região')
 
     
 }

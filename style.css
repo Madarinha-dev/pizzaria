@@ -168,6 +168,17 @@ div.icones > div.bloco-3 > p {
     
 }
 
+
+div#googlemaps {
+    background-color: green;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+div#googlemaps > p {
+    color: white;
+}
+
 div#formulario {
     background-color: rgb(255, 255, 255);
     max-width: 379px;
