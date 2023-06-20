@@ -135,6 +135,7 @@ div.icones > div.bloco-1 > p {
 div.icones > div.bloco-2 {
     /* background-color:green; */
     /* display: inline-block; */
+    
     position:absolute;
     margin-left:180px;
     margin-top:25px;
